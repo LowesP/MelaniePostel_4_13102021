@@ -677,7 +677,20 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
+}
+
+.text-presentation {
+    font-size: 21px;
+    width: 30em;
+    font-weight: bold;
+}
+
+.text-citation {
+    font-size: 19px;
+    font-weight: bold;
+    font-style: italic;
+    width: 28em;
 }
 
 .tight-width-whitespace {
