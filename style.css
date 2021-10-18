@@ -680,17 +680,28 @@ p {
     font-size: 14px;
 }
 
+.col-sm-12 {
+    max-width: 100%;
+    text-align: center;
+}
+
 .text-presentation {
     font-size: 21px;
-    width: 30em;
     font-weight: bold;
+    max-width: 100%;
+    padding: 10px 180px;
 }
 
 .text-citation {
     font-size: 19px;
     font-weight: bold;
     font-style: italic;
-    width: 28em;
+    max-width: 100%;
+    padding: 0 50px;
+}
+
+#opacity-title {
+    opacity: 0.9;
 }
 
 .tight-width-whitespace {
