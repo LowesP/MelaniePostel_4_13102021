@@ -1050,9 +1050,16 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .bg-banniere {
+      background-image: url("img/la-chouette-agence-banniere-mobile.jpg");
+    }
+  
+    .bg-presentation {
+      background-image: url("img/image-de-presentation-mobile.jpg");
+    }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
